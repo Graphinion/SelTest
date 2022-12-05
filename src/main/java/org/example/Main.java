@@ -10,10 +10,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 class Main {
-    public static void main(final String[] args) {
-        /**
-         * This Jobs is for the validation
-         */
+    /**
+     * This Jobs is for the validation
+     */
+     static void main(final String[] args) {
         System.setProperty("webdriver.chrome.driver",
             "C://Projects//Drivers//chromedriver.exe");
         //Accept No of elements to be added.
