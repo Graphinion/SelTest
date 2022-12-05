@@ -10,11 +10,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 public final class Main {
+    private Main() {
+
+    }
     /**.
      * This Jobs is for the validation
      * @param args is used to pass arguments
      */
-      static void main(final String[] args) {
+      public static void main(final String[] args) {
         System.setProperty("webdriver.chrome.driver",
             "C://Projects//Drivers//chromedriver.exe");
         //Accept No of elements to be added.
