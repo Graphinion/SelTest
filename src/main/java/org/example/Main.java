@@ -21,7 +21,7 @@ public class Main {
         // Navigates to rge internet
         WebDriver driver = new ChromeDriver();
         driver.navigate().to("https://the-internet.herokuapp.com");
-        //Add N number of Elements
+        //Add N number of Elements to page
         driver.findElement(By.xpath("//a[@href='/add_remove_elements/']")).click();
         for (int i = 0;i< N; i++){
             driver.findElement(By.xpath("//button[text()=\"Add Element\"]")).click();
