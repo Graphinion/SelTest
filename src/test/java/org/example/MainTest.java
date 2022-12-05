@@ -6,7 +6,10 @@ import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
 
 public class MainTest {
-@Test
+    /**
+     * This test class is to validate the testt.
+     */
+    @Test
     void validTestdata() {
     assertEquals(15, executeRun(15));
 }
