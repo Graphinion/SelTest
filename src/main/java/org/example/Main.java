@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
-public class Main {
+class Main {
     public static void main(final String[] args) {
         /**
          * This Jobs is for the validation
